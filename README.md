@@ -6,9 +6,9 @@ Wiki engine developed by ZEONPLEX.
 - 김규산 (kks@kkutu.co)
 
 ### Installation
-To install all dependencies, run under.
-> yarn add
-Then, run under
+- To install all dependencies, run under.
+> yarn add 
+- Then, run under
 > yarn start
 
 ### Copyright

@@ -7,9 +7,13 @@ Wiki engine developed by ZEONPLEX.
 
 ### Installation
 - To install all dependencies, run under.
-> yarn add 
+```
+yarn add
+```
 - Then, run under
-> yarn start
+```
+yarn start
+```
 
 ### Copyright
 > Copyright ⓒ 2019 ZEONPLEX All Right Reserved.

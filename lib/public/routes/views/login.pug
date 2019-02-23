@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    meta(charset='utf8')
+    title Sign In
+  body
+    include ./header.pug
+    form(action='/process/login' type='post')
+      input(style='display: block' placeholder='Username' name='username' type='text')
+      input(style='display: block' placeholder='Password' name='password' type='password')
+      

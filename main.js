@@ -3,10 +3,13 @@ const http = require('http')
 const path = require('path')
 const parser = require('body-parser')
 const loader = require('./lib/public/routes/loader')
+const klog = require('./lib/klog')
+const settings = require('./lib/sub/settings.json')
+const cors = require('cors')
 
 const app = express()
 
-app.set('port', 80)
+app.set('port', settings.port)
 app.set('views', path.join(__dirname, '/lib/public/routes/views'))
 app.set('view engine', 'pug')
 
@@ -18,5 +21,5 @@ app.use(cors())
 loader.init(app, express.Router())
 
 http.createServer(app).listen(app.get('port'), () => {
-  console.log('Serer On!')
+  klog.alert('Serer On!')
 })

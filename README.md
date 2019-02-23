@@ -1,2 +1,2 @@
 # ZeroEngine
-Wiki engine developed by ZEONPLEX
+Wiki engine developed by ZEONPLEX.

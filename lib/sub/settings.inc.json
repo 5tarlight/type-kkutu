@@ -1,0 +1,10 @@
+{
+    "port": "80",
+    "db": {
+        "host": "localhost",
+        "user": "root",
+        "password": "YOUR DB PASSWORD HERE",
+        "port": 3306,
+        "database": "zero"
+    }
+}

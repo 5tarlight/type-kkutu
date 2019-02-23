@@ -10,5 +10,8 @@
   "main": "main.js",
   "repository": "git@github.com:kimhj050326/ZeroEngine.git",
   "author": "5tarlight <developerstarlight@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node main"
+  }
 }

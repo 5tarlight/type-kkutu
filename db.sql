@@ -1,0 +1,9 @@
+CREATE TABLE `user` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`username` VARCHAR(20) NOT NULL,
+	`password` VARCHAR(45) NOT NULL,
+	PRIMARY KEY (`id`)
+)
+COMMENT='user list'
+ENGINE=InnoDB
+;

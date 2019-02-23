@@ -13,6 +13,7 @@ app.set('view engine', 'pug')
 app.use('/', express.static(path.join(__dirname, '/lib/public')))
 app.use(parser.urlencoded({ extended: true }))
 app.use(parser.json())
+app.use(cors())
 
 loader.init(app, express.Router())
 

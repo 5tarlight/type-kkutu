@@ -5,7 +5,7 @@ html
     title Sign Up
   body
     include ./header.pug
-    form(action='/process/auth' type='post')
+    form(action='/process/auth' method='post')
       input(style='display: block' placeholder='Username' name='username' type='text')
       input(style='display: block' placeholder='Password' name='password' type='password')
       input(style='display: block' value='회원가입' name='' type='submit')

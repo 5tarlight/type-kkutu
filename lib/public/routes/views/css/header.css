@@ -13,4 +13,5 @@ header {
 .header:hover {
   background-color: #081550;
   cursor: pointer;
+  height: 100%;
 }

@@ -3,10 +3,16 @@ html
   head
     meta(charset='utf8')
     title Sign Up
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js")
+    script(src='/routes/views/js/in_auth.js')
   body
     include ./header.pug
+    .alert.alert-danger.alert-dismissible#error(role='alrt')
+      button.close(type='button' data-dismiss='alert' aria-label='Close')
+        span(aria-hidden='true') &times;
+      strong#text-zone
     form(action='/process/auth' method='post')
-      input(style='display: block' placeholder='Username' name='username' type='text')
-      input(style='display: block' placeholder='Password' name='password' type='password')
-      input(style='display: block' value='회원가입' name='' type='submit')
+      input.usernameInput(style='display: block' placeholder='Username' name='username' type='text')
+      input.passwordInput(style='display: block' placeholder='Password' name='password' type='password')
+      input(style='display: block' value='회원가입' name='' type='submit' class='submitBtn')
       

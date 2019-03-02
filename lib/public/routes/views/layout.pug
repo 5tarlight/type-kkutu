@@ -20,4 +20,9 @@ html
             b.link 로그인
           td(onClick='window.location.href="/auth"' class='header show-balloon' title='회원가입')
             b.link 회원가입
+          td.pre
+          td
+            input(type='text' placeholder='검색')
+          td.header(title='검색')
+            span.link.glyphicon.glyphicon-search(aria-hidden="true")
     block content

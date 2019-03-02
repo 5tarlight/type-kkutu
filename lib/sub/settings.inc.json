@@ -1,4 +1,5 @@
 {
+    "admin": [],
     "port": "80",
     "db": {
         "host": "localhost",

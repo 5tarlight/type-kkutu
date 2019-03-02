@@ -3,6 +3,9 @@ extends layout
 block js
   script(src="/routes/views/js/in_auth.js")
 
+block title
+  title 회원가입
+
 block content
   .alert.alert-danger.alert-dismissible#error(role='alrt')
     button.close(type='button' data-dismiss='alert' aria-label='Close')

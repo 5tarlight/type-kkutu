@@ -3,6 +3,9 @@ extends layout
 block css
   link(rel="stylesheet", href="/routes/views/css/topic.css")
 
+block title
+  title #{title}
+
 block content
   h1.title #{title}
   h4.desc #{description}

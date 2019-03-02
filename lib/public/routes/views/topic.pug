@@ -1,13 +1,10 @@
-doctype html
-html
-  head
-    meta(charset='utf-8')
-    title #{title}
-    link(rel="stylesheet", href="/routes/views/css/topic.css")
-  body
-    include ./header.pug
+extends layout
 
-    h1.title #{title}
-    h4.desc #{description}
-    div.article #{article}
-    div.author 작성자: #{authorid}
+block css
+  link(rel="stylesheet", href="/routes/views/css/topic.css")
+
+block content
+  h1.title #{title}
+  h4.desc #{description}
+  div.article #{article}
+  div.author 작성자: #{authorid}

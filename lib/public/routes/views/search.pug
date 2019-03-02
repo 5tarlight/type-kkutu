@@ -8,9 +8,10 @@ block title
 
 block content
   - for(let i in results) {
+  - let link = '/w/' + results[i]['title']
     div
-      a(href='/w/#{results[i]["title"]}') #{results[i]['title']}
-      div 
+      a(href=link) #{results[i]['title']}
+      div
         i #{results[i]['description']}
     sh
   - }

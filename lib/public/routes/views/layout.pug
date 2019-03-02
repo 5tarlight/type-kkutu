@@ -7,6 +7,7 @@ html
     script(src="https://code.jquery.com/jquery-3.3.1.min.js")
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
     link(rel="stylesheet", href="/routes/views/css/header.css")
+    script(src='/routes/views/js/search.js')
     block css
     block js
     block title
@@ -22,7 +23,7 @@ html
             b.link 회원가입
           td.pre
           td
-            input(type='text' placeholder='검색')
+            input.searchInput(type='text' placeholder='검색')
           td.header(title='검색')
             span.link.glyphicon.glyphicon-search(aria-hidden="true")
     block content

@@ -1,11 +1,17 @@
 extends layout
 
+block css
+  link(rel="stylesheet", href="/routes/views/css/search.css")
+
 block title
   title 검색
 
 block content
   - for(let i in results) {
-    a(href='/w/#{results[i]["title"]}') #{results[i]['title']}
-    div #{results[i]['description']}
+    div
+      a(href='/w/#{results[i]["title"]}') #{results[i]['title']}
+      div 
+        i #{results[i]['description']}
+    sh
   - }
-  sh
+  

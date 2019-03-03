@@ -1,0 +1,13 @@
+extends layout
+
+block css
+  link(rel="stylesheet", href="/routes/views/css/new.css")
+
+block title
+  title 글쓰기
+
+block content
+  form(action="/process/new" method='post')
+    input(style='display: block' name='title' placeholder='제목')
+    input(style='display: block' name='description' placeholder='설명')
+    input()

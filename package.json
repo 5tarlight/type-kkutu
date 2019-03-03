@@ -20,7 +20,8 @@
   "author": "5tarlight <developerstarlight@gmail.com>",
   "license": "LGPL-3.0",
   "scripts": {
-    "start": "tsc && node dist"
+    "start": "node main",
+    "test": "tsc && node dist"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",

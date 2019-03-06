@@ -6,6 +6,7 @@ html
     link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css")
     script(src="https://code.jquery.com/jquery-3.3.1.min.js")
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
+    script(src="/socket.io/socket.io.js")
     link(rel="stylesheet", href="/routes/views/css/header.css")
     script(src='/routes/views/js/search.js')
     block css
@@ -21,6 +22,8 @@ html
             b.link 로그인
           td(onClick='window.location.href="/auth"' class='header show-balloon' title='회원가입')
             b.link 회원가입
+          td(onClick='window.location.href="/new"' class='header show-balloon' title='글쓰기')
+            b.link 글쓰기
           td.pre
           td
             input.searchInput(type='text' placeholder='검색')

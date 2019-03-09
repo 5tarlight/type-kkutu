@@ -2,8 +2,16 @@ extends layout
 
 block head
   script(src="/routes/views/js/portal.js")
-  title 글자로 놀자! 끄투온라인!
+  title 글자로 놀자! 끄투 온라인!
   link(rel="stylesheet", href="/routes/views/css/portal.css")
 
 block content
-  
+  .container
+    .logo
+      img(src='/routes/views/img/short_logo.png')
+
+    .bulletin
+      h3 v0.0.1 [2019-03-09]
+      ul
+        li
+          p 글자로 놀자! 끄투 온라인 프리 서버가 개발을 시작했습니다.

@@ -1,0 +1,44 @@
+body {
+  background-image: url('/routes/views/img/def.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.middle {
+  width: 850px;
+  margin-left: 250px;
+}
+
+.menu, .userlist, .roomlist, .moremi, .chat {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.menu {
+  height: 30px;
+}
+
+.userlist {
+  width: 200px;
+  height: 400px;
+  float: left;
+}
+
+.roomlist {
+  width: 650px;
+  height: 400px;
+  float: left;
+}
+
+.moremi {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.chat {
+  width: 650px;
+  height: 200px;
+  float: left;
+}

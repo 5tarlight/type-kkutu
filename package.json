@@ -15,7 +15,7 @@
     "socket.io": "^2.2.0"
   },
   "name": "zeroengine",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "main.js",
   "repository": "git@github.com:5tarlight/type-kkutu.git",
   "author": "5tarlight <developerstarlight@gmail.com>",

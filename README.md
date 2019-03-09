@@ -1,5 +1,5 @@
-# ZeroEngine
-KKuTu
+# Advanced KKuTu
+Prettier and powerful New KKuTu
 
 ### Author
 - 5tarlight <developerstarlight@gmail.com>

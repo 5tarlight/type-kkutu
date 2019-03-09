@@ -1,5 +1,5 @@
 body {
-  background-image: url('/routes/views/img/gamebg.png')
+  background-image: url('/routes/views/img/gamebg.png');
 }
 
 .bulletin {
@@ -8,4 +8,24 @@ body {
   border: 2px solid black;
   overflow: scroll;
   padding: 15px;
+}
+
+.play {
+  background-color: #6f572b;
+  padding: 30px;
+  width: 300px;
+  height: 100px;
+  margin: 5px 0px 50px 0px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.play:hover {
+  background-color: #b19258;
+  font-size: 30px;
+  width: 300px;
+  height: 100px;
+  cursor: pointer;
 }

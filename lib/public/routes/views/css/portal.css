@@ -1,5 +1,11 @@
 body {
   background-image: url('/routes/views/img/gamebg.png');
+  animation: BGScroll 4s linear infinite;
+}
+
+@keyframes BGScroll{
+	from{ background-position: 0px 0px; }
+	to{ background-position: -200px -200px; }
 }
 
 .bulletin {

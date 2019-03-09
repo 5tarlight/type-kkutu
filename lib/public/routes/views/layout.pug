@@ -21,8 +21,8 @@ html
           td(onClick='window.location.href="/auth"' class='header show-balloon' title='회원가입')
             b.link 회원가입
           - } else {
-          td
-            b #{username}
+          td(onClick='window.location.href="/process/logout"' class='header show-balloon' title='로그아웃')
+            b.link #{username}
           - }
           
     .global-notice(onClick="$('.global-notice').css('visibility', 'hidden')")

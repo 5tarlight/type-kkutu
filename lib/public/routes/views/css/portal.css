@@ -40,3 +40,24 @@ body {
   margin: 15px 0px 15px 0px;
   border-radius: 10px;
 }
+
+.front {
+  padding: 0px 35px;
+}
+
+.title {
+  padding: 0px 65px;
+  margin-bottom: -25px;
+}
+
+.slogan {
+  padding: 0px 14px;
+  margin-bottom: -25px;
+  color: #eeeeee;
+  text-shadow: 1px 1px 1px black;
+  font-size: 15px;
+}
+
+.container {
+  margin-top: 40px;
+}

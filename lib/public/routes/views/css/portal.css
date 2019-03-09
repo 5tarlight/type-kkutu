@@ -1,3 +1,11 @@
 body {
   background-image: url('/routes/views/img/gamebg.png')
 }
+
+.bulletin {
+  background-color: white;
+  height: 500px;
+  border: 2px solid black;
+  overflow: scroll;
+  padding: 15px;
+}

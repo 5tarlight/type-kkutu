@@ -8,6 +8,7 @@ const settings = require('./lib/sub/settings.json')
 const cors = require('cors')
 const cookie = require('cookie-parser')
 const session = require('express-session')
+const socket = require('./lib/socket')
 
 const app = express()
 
@@ -29,6 +30,8 @@ app.use(session({
 loader.init(app, express.Router())
 
 const server = http.createServer(app)
+
+socket.init(server)
 
 server.listen(app.get('port'), () => {
   klog.alert('Serer On!')

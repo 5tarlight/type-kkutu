@@ -28,6 +28,8 @@ app.use(session({
 
 loader.init(app, express.Router())
 
-http.createServer(app).listen(app.get('port'), () => {
+const server = http.createServer(app)
+
+server.listen(app.get('port'), () => {
   klog.alert('Serer On!')
 })

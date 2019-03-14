@@ -8,6 +8,8 @@ html
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
     script(src="/socket.io/socket.io.js")
     link(rel="stylesheet", href="/routes/views/css/header.css")
+    link(rel="stylesheet", href="/routes/views/css/balloon.css")
+    script(src="/routes/views/js/balloon.js")
     link(rel='shortcut icon' href='/routes/views/ing/favicon.ico')
     block head
   body
@@ -26,6 +28,6 @@ html
             b.link #{username}
           - }
           
-    .global-notice(onClick="$('.global-notice').css('visibility', 'hidden')")
+    .global-notice(class='showBalloon' onClick="$('.global-notice').css('visibility', 'hidden')" title='클릭해서 닫기')
        p 서버가 개발중입니다.
     block content

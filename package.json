@@ -9,12 +9,12 @@
     "global": "^4.3.2",
     "http": "^0.0.0",
     "mysql": "^2.16.0",
-    "nodemon": "^1.18.10",
     "path": "^0.12.7",
     "pug": "^2.0.3",
     "socket.io": "^2.2.0"
   },
   "name": "zeroengine",
+  "description": "RE! 끄투로 부터 시작하는 사이버 생활",
   "version": "1.0.2",
   "main": "main.js",
   "repository": "git@github.com:5tarlight/type-kkutu.git",
@@ -23,5 +23,16 @@
   "scripts": {
     "start": "node main",
     "test": "tsc && node dist"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "http",
+    "server",
+    "web",
+    "5tarlight"
+  ]
 }

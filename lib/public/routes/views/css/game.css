@@ -6,13 +6,13 @@ body {
 }
 
 .middle {
-  width: 850px;
-  margin-left: 250px;
+  width: 854px;
+  margin-left: 254px;
 }
 
-.menu, .userlist, .roomlist, .moremi, .chat {
+.userlist, .roomlist, .moremi, .chat {
   background-color: white;
-  border: 1px solid black;
+  margin: 1px;
 }
 
 .menu {
@@ -41,4 +41,14 @@ body {
   width: 650px;
   height: 200px;
   float: left;
+}
+
+.menuItem {
+  float: left;
+  width: 80px;
+  background-color: white;
+  height: 100%;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 1px;
 }

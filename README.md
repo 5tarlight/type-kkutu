@@ -3,6 +3,7 @@ Prettier and powerful New KKuTu
 
 ### Author
 - 5tarlight <developerstarlight@gmail.com>
+- kimhj050326 <khj@kkutu.co>
 
 ## To-Do List
 - 포털 페이지 디자인

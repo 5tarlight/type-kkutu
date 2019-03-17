@@ -18,7 +18,7 @@
   "description": "RE! 끄투로 부터 시작하는 사이버 생활",
   "version": "1.0.2",
   "main": "main.js",
-  "repository": "git@github.com:5tarlight/type-kkutu.git",
+  "repository": "https://github.com/zeonplex/type-kkutu",
   "author": "5tarlight <developerstarlight@gmail.com>",
   "license": "LGPL-3.0",
   "scripts": {

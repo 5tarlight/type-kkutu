@@ -29,7 +29,7 @@ app.use(session({
 
 loader.init(app, express.Router())
 
-const server = http.createServer(app)
+const server = http.Server(app)
 
 socket.init(server)
 

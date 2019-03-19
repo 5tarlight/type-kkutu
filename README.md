@@ -3,11 +3,6 @@ Prettier and powerful New KKuTu
 
 ### Author
 - 5tarlight <developerstarlight@gmail.com>
-- kimhj050326 <khj@kkutu.co>
-
-## To-Do List
-- 포털 페이지 디자인
-- 인게임 페이지 디자인
 
 ### Installation
 - 모듈들을 다운받기 위해서 아래 명령을 실행합니다.

@@ -31,11 +31,11 @@ body {
 
 .play:hover {
   background-color: #b19258;
-  font-size: 30px;
+  font-size: 28px;
   width: 300px;
   height: 100px;
   cursor: pointer;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
 }
 
 .frog {

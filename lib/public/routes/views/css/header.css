@@ -24,6 +24,7 @@ header {
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: bold;
+  width: 100%;
 }
 
 .global-notice:hover {

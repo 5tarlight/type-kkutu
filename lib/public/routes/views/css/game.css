@@ -66,3 +66,11 @@ body {
   border-bottom: 1px solid black;
   margin-bottom: 5px;
 }
+
+.usrename:hover {
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  cursor: pointer;
+}

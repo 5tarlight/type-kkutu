@@ -60,3 +60,8 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 15px;
 }
+
+.usercount {
+  width: 100%;
+  border-bottom: 1px;
+}

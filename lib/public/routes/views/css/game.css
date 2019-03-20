@@ -16,7 +16,7 @@ body {
 }
 
 .menu {
-  height: 50px;
+  height: 40px;
 }
 
 .userlist {
@@ -53,6 +53,7 @@ body {
   text-align: center;
   line-height: 40px;
   margin-left: 1px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .username {

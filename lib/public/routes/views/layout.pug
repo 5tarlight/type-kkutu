@@ -18,7 +18,7 @@ html
         tr
           td(onClick='window.location.href="/"' class='header show-balloon' title='홈')
             span.link(class='glyphicon glyphicon-home', aria-hidden="true")
-          - if(!username) {
+          - if(!username || username.startsWith('guest_')) {
           td(onClick='window.location.href="/login"' class='header show-balloonr' title='로그인')
             b.link 로그인
           td(onClick='window.location.href="/auth"' class='header show-balloon' title='회원가입')

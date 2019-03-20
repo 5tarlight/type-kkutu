@@ -2462,6 +2462,11 @@ term-size@^1.2.0:
   dependencies:
     execa "^0.7.0"
 
+text-maker@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/text-maker/-/text-maker-1.0.4.tgz#491cd5eb1651bd901cad71c9b80bf1566bf647c3"
+  integrity sha512-DzluHX6qmEObHunp6Aovrxc35umvCxZ6mSol26FRY0nnapggtJ7LJgSMY+/SETgnGF77x6Dxw88nQPe8P9uAnQ==
+
 timed-out@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/timed-out/-/timed-out-4.0.1.tgz#f32eacac5a175bea25d7fab565ab3ed8741ef56f"

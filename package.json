@@ -12,7 +12,8 @@
     "mysql": "^2.16.0",
     "path": "^0.12.7",
     "pug": "^2.0.3",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.2.0",
+    "text-maker": "^1.0.4"
   },
   "name": "zeroengine",
   "description": "RE! 끄투로 부터 시작하는 사이버 생활",

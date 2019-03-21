@@ -77,7 +77,7 @@ body {
 
 .oldchat {
   width: 100%;
-  overflow: scroll;
+  overflow: auto;
   height: 87%;
   border: 1px solid grey;
   box-sizing: border-box;

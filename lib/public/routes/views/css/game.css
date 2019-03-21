@@ -74,3 +74,15 @@ body {
 .menuItem:hover {
   cursor: pointer;
 }
+
+.oldchat {
+  width: 100%;
+  overflow: scroll;
+  height: 87%;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+
+.inchat {
+  width: 93%;
+}

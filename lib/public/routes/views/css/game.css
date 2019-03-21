@@ -24,7 +24,7 @@ body {
   height: 400px;
   float: left;
   padding: 5px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .roomlist {

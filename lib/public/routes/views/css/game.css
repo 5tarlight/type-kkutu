@@ -88,3 +88,35 @@ body {
 .inchat {
   width: 93%;
 }
+
+
+.dialog {
+  width: 300px;
+  height: 420px;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  top: 190px;
+  left: 550px;
+  display: none;
+}
+
+.dialog-head {
+  background-color: #ddd;
+  height: 30px;
+  width: 100%;
+  margin: 0px;
+}
+
+.dialog-close {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  margin: 2px;
+  float: left;
+}
+
+.dialog-close:hover {
+  cursor: pointer;
+}

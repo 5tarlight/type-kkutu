@@ -67,8 +67,9 @@ body {
   margin-bottom: 5px;
 }
 
-.usrename:hover {
+.username:hover {
   cursor: pointer;
+  background-color: #ddd;
 }
 
 .menuItem:hover {

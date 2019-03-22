@@ -120,3 +120,8 @@ body {
 .dialog-close:hover {
   cursor: pointer;
 }
+
+.dialog-content {
+  width: 100%;
+  height: 93%;
+}

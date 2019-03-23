@@ -63,3 +63,32 @@ body {
   text-shadow: 1px 1px 1px black;
   font-size: 15px;
 }
+
+.serverlist {
+  float:right;
+  background-color: #8f8f8fa1;
+  margin-top: -100px;
+  width: 300px;
+  color: white;
+  padding: 0px;
+}
+
+.list-title {
+  background-color: #474747dc;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 1px;
+}
+
+.list-element:hover {
+  cursor: pointer;
+  background-color: #e7e7e7a1;
+  color: black;
+  margin: 0px;
+}
+
+.progress {
+  width: 80%;
+  float: right;
+}

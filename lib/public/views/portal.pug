@@ -17,6 +17,13 @@ block content
         .play(onClick='window.location.href="/game"')
           strong 게임 시작
 
+    .serverlist
+      span.list-title.glyphicon.glyphicon-check(aria-hidden='true')  서버목록
+      .potato.list-element(onClick='window.location.href="/game"') 감자
+        .progress
+          .progress-bar(role='progressbar' aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;") 60명
+          span.sr-only 60명
+
     .bulletin
       h3 v0.0.1 [2019-03-09]
       ul

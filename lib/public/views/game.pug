@@ -1,0 +1,34 @@
+extends layout
+
+block head
+  title 글자로 놀자! 끄투 온라인
+  link(href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet")
+  link(rel="stylesheet", href="/views/css/game.css")
+  script(src='/views/js/in_game.js')
+  script.
+    $(() => {
+      setUsername('#{username}')
+    })
+
+block content
+  .middle
+    .menu
+      #createRoom.menuItem(title='방 만들기' style='background-color: #8DC3F8') 방 만들기
+      #shortEnter.menuItem(title='빠른 입장' style='background-color: #AED2F6') 빠른 입장
+      #shop.menuItem(title='상점' style='background-color: #B3E9B5') 상점
+      #dict.menuItem(title='사전' style='background-color: #6FD276') 사전
+      #replay.menuItem(title='리플레이' style='background-color: #DEFB82') 리플레이
+      #ranking.menuItem(title='랭킹' style='background-color: #FCB2D9') 랭킹
+    .userlist
+    .roomlist
+    .moremi
+    .chat
+      .oldchat
+      input.inchat
+      button.submit 전송
+
+  .dialog
+    .dialog-head
+      .dialog-close
+      .dialog-title
+    .dialog-content

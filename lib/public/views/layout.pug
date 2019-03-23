@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css")
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
+    script(src="/socket.io/socket.io.js")
+    link(rel="stylesheet", href="/views/css/header.css")
+    link(rel="stylesheet", href="/views/css/balloon.css")
+    script(src="/views/js/balloon.js")
+    link(rel='shortcut icon' href='/img/favicon.ico')
+    block head
+  body
+    header
+      table
+        tr
+          td(onClick='window.location.href="/"' class='header show-balloon' title='홈')
+            span.link(class='glyphicon glyphicon-home', aria-hidden="true")
+          - if(!username || username.startsWith('guest_')) {
+          td(onClick='window.location.href="/login"' class='header show-balloonr' title='로그인')
+            b.link 로그인
+          td(onClick='window.location.href="/auth"' class='header show-balloon' title='회원가입')
+            b.link 회원가입
+          - } else {
+          td(onClick='window.location.href="/process/logout"' class='header show-balloon' title='로그아웃')
+            b.link #{username}
+          - }
+          
+    .global-notice(class='showBalloon' onClick="$('.global-notice').css('visibility', 'hidden')" title='클릭해서 닫기')
+       p 서버가 개발중입니다.
+    block content

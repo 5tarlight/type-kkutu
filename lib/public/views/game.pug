@@ -34,41 +34,22 @@ block content
     input(type='password' placeholder='비밀번호')
     input(type='text' placeholder='인원')
 
-    div(class="btn-group")
-      button(type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false") 게임 유형 
-        span(class="caret")
-      ul(class="dropdown-menu" role="menu")  
-        li
-          a(href="#") 한국어 끝말잇기
-        li
-          a(href="#") 한국어 쿵쿵따
-        li
-          a(href="#") 한국어 앞말잇기
-        li
-          a(href="#") 한국어 타자대결
-        li
-          a(href="#") 한국어 단어대결
-        li
-          a(href="#") 한국어 십자말풀이
-        li
-          a(href="#") 한국어 솎솎
-        li
-          a(href="#") 자음퀴즈
-        li
-          a(href="#")
-
-        li(class="divider")
-
-        li
-          a(href="#") 영어 끝말잇기
-        li
-          a(href="#") 영어 끄투
-        li
-          a(href="#") 영어 타자대결
-        li
-          a(href="#") 영어 단어대결
-        li
-          a(href="#") 영어 솎솎
-
+    select(name='gametype')
+      optgroup(label='한국어')
+        option(value='한국어 끝말잇기') 한국어 끝말잇기
+        option(value='한국어 쿵쿵따') 한국어 쿵쿵따
+        option(value='한국어 앞말잇기') 한국어 앞말잇기
+        option(value='한국어 타자대결') 한국어 타자대결
+        option(value='한국어 단어대결') 한국어 단어대결
+        option(value='한국어 십자말풀이') 한국어 십자말풀이
+        option(value='한국어 솎솎') 한국어 솎솎
+        option(value='자음퀴즈') 자음퀴즈
+      optgroup(label='영어')
+        option(value='영어 끝말잇기') 영어 끝말잇기
+        option(value='영어 끄투') 영어 끄투
+        option(value='영어 타자대결') 영어 타자대결
+        option(value='영어 단어대결') 영어 단어대결
+        option(value='영어 솎솎') 영어 솎솎
+    
     input(type='text' placeholder='라운드 수')
     input(type='text' placeholder='라운드 시간')

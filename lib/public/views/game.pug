@@ -32,11 +32,11 @@ block content
       button.submit 전송
 
   .createRoom(title='방 만들기' style='display: none;')
-    input(type='text' placeholder='방 이름')
-    input(type='password' placeholder='비밀번호')
-    input(type='text' placeholder='인원')
+    input.room-name(type='text' placeholder='방 이름')
+    input.room-password(type='password' placeholder='비밀번호')
+    input.room-user-limit(type='number' placeholder='인원')
 
-    select(name='gametype')
+    select.room-game-type(name='gametype')
       optgroup(label='한국어')
         option(value='한국어 끝말잇기') 한국어 끝말잇기
         option(value='한국어 쿵쿵따') 한국어 쿵쿵따
@@ -53,5 +53,6 @@ block content
         option(value='영어 단어대결') 영어 단어대결
         option(value='영어 솎솎') 영어 솎솎
     
-    input(type='text' placeholder='라운드 수')
-    input(type='text' placeholder='라운드 시간')
+    input.room-rount-limit(type='number' placeholder='라운드 수')
+    input.room-round-time(type='number' placeholder='라운드 시간')
+    button(onClick='createRoom()') 만들기

@@ -19,4 +19,4 @@ yarn start
 ```
 
 ##### Special Thanks
-- khj
+- khjkr
